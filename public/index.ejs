@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="file1">
+                <input type="submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+
+    <script src="/reload/reload.js"></script>
+    
+</body>
+</html>
